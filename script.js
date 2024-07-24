@@ -24,7 +24,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         from_email: email,
         subject: subject,
         message_html: message
-    }).then(function(response) {
+    }).then(function(response) {``
         console.log('Email sent!', response);
         document.getElementById('contactForm').reset(); // Clear form after successful submission
         alert('Your message has been sent successfully.');
