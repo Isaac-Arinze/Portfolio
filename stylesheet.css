@@ -65,7 +65,7 @@ body {
     padding: 20px 10% 0;
     background: url(./web.jpeg) no-repeat;
     background-size: cover;
-    color: #92c111;
+    color: #dfe0e4;
 }
 
 .home-content {
@@ -690,12 +690,15 @@ section {
     align-items: center;
     gap: 3rem;
     padding-left: 30px;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .contact-text  h2{
-    font-size: 70px;
+    font-size: 40px;
     line-height: 1;
-    text-align: center;
+    text-align: left;
+    padding-bottom: 30px;
+    
+
 }   
 .contact-text h2 span{
     color: #0ef;
@@ -799,7 +802,7 @@ section {
         0 0 100px cyan, 0 0 200px cyan;
 }
 .last-text p{
-    width: 100%;
+    width: 190%;
     text-align: center; 
     padding: 25px 0;
     background: rgb(7, 85, 91);
