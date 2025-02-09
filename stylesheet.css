@@ -213,7 +213,10 @@ body {
 }
 
 .container {
-    padding: 70px;
+    margin: 0 auto;
+    padding-left: 100px;
+    max-width: 12000px;
+    /* text-align: center; */
     
 /* align-items: center; */
 
@@ -224,6 +227,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(259px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
+     flex-wrap: wrap
 }
 
 .services-list div {
@@ -597,6 +601,33 @@ section {
     opacity: 0;
 }
 
+/* Default styles */
+body {
+    font-size: 16px;
+}
+
+/* Small devices (phones, 600px and below) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (desktops, 769px and above) */
+@media only screen and (min-width: 769px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
 .radial-bar .text{
     width: 100%;
     position:absolute;
@@ -872,4 +903,5 @@ section {
         transform: translateY(0px);
         opacity: 1;
     }
+
 }
